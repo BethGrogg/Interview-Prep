@@ -9,7 +9,7 @@ var model = require("../models/interview.js");
 router.get("/", function(req, res) {
     model.selectAll(function(data) {
     var hbsObject = {
-      interview: data
+    tech_questions: data
     };
     console.log(hbsObject);
     res.render("index", hbsObject);

@@ -91,5 +91,5 @@ var orm = {
   
 };
 
-// Export the orm object for the model (cat.js).
+// Export the orm object for the model (interview.js).
 module.exports = orm;
